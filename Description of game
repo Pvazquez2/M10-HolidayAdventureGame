@@ -1,0 +1,51 @@
+# M10-HolidayAdventureGame
+1. Where the Code is Hosted
+The source code for this project is hosted on GitHub
+The game is also deployed on PythonAnywhere for online testing:https://www.pythonanywhere.com/user/pvazquez/shares/a9d6507234084fbe9a96dab853bd350d/
+
+2. External Services
+This game does not rely on any external services beyond the Python standard library. The game utilizes the random module to handle random events such as item discovery, and outcomes based on chance. For online hosting and running the game, I used  PythonAnywhere for easy access.
+
+3. Languages and Technologies
+Programming Language: Python 3.7 or higher
+Libraries: Python Standard Library (mainly the random module for generating random outcomes)
+Hosting Platforms: GitHub (for code), PythonAnywhere (for online play)
+4. System Requirements and Supported Applications
+System Requirements:
+Python 3.7 or higher
+A terminal or command-line interface to execute the Python scripts
+Compatible with all major operating systems (Windows, macOS, Linux)
+Applications:
+A terminal (macOS/Linux) or Command Prompt (Windows) to run the Python scripts locally.
+Alternatively, the game can be played directly from PythonAnywhere without needing any local setup.
+5. Coding/Naming Conventions
+Classes: Classes are named using CamelCase (ThanksgivingRealm, PlayerCharacter etc...).
+Functions and Variables: Functions and variables use lowercase letters with underscores separating words (start_game(), gather_ingredients()). I tried to use simple variables to keep the game from getting to complicated. 
+Constants: Constants are in uppercase letters with underscores separating words (MAX_ATTEMPTS etc...).
+6. How to Run/Build/Deploy the Program
+Running Locally:
+Clone the repository from GitHub
+Navigate to the project directory:
+cd path/to/game
+Run the main Python file:
+   HolidayAdventureGame main.py
+Running on PythonAnywhere: this is helpful to play around with. It also helps debug your code!
+7. Overview of the Architecture
+This game is modular and split into multiple Python files but all inside one folder only to organize different parts of the adventure:
+
+Main Python File: The main.py file starts the game and handles the introduction and game flow. It imports other chapters and integrates them into the main adventure.
+Chapter Files: Each chapter (chapter1.py, chapter2.py, chapter3.py, chapter4.py, chapter 5.py) are a  separate Python file that contains specific events and challenges for that chapter. This makes the code more modular and maintainable.
+Classes: Classes are used to handle different aspects of the game (PlayerCharacter, ThanksgivingRealm). They define the game mechanics, such as player actions, inventory management, and event triggers.
+8. How to Start the Program (Start the Game)
+To begin your adventure, simply run the main.py file. The game will prompt you to enter the first chapter and guide you through the various challenges and interactions.
+For example:
+HolidayAdventureGame main.py
+Follow the on-screen prompts to guide the Lost Traveler through their journey.
+
+Additional Information:
+Known Issues:
+I was having issues tryin to actually incorporarte visuals other than intext visuals. When I did accomplish one window to pop up for the "christmas realm" it showed up as a black screen. Otherwise, please report any bugs or issues encountered while playing.
+
+Contributors:
+Paola Vazquez 
+
